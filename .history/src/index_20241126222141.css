@@ -1,0 +1,39 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc; /* Light beige color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+#root {
+  width: 100%;
+  max-width: 600px; /* Limit the content width */
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+option {
+  padding: 10px;
+}
